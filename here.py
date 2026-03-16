@@ -1,11 +1,16 @@
-import random
+import random, math
 
-b = random.randint(1,10)
-a = 0
-while(a != b):
-    a = int(input("tebak angka 1-10: "))
-    if (a == b):
+print("== TEBAK ANGKA ==")
+answer = random.randint(1,20)
+percobaan = 5
+
+while(percobaan != 0):
+    tebak = int(input("\ntebak angka 1-20: "))
+    percobaan = percobaan-1
+    if (tebak == answer):
         print("benar")
         break
     else:
-        print("tidak benar, coba lagi\n")
+        print(answer)
+        print("tidak benar, coba lagi")
+        print("sisa percobaan: ", percobaan)
