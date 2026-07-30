@@ -1,5 +1,5 @@
 ﻿# H1D024074-PraktikumKB-Pertemuan1
-Aplikasi yang mengimplementasikan struktur kontrol, struktur data, dan library
+Aplikasi yang mengimplementasikan struktur kontrol, struktur data, dan library. Dibuat untuk memenuhi tugas Praktikum Kecerdasan Buatan
 
 ## Detail Implementasi
 1. Struktur Kontrol
